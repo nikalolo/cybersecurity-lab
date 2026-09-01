@@ -50,6 +50,7 @@ cybersecurity-lab/
 ├── README.md
 ├── report.md
 └── screenshots/
+    ├── meta2_ip.png
     ├── nmap-scan.png
     ├── vsftpd-exploit.png
     ├── vncviewer.png
